@@ -1,0 +1,11 @@
+.Hijo {
+    border: 1px solid red;
+    margin: 1ex;
+    padding: 1ex;
+}
+
+#padre {
+    border: 2px solid black;
+    padding: 4ex;
+    width: 15ex;
+}

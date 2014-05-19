@@ -1,0 +1,34 @@
+div {
+   border: 1px solid black;
+}
+
+#page {
+  width: 800px;
+  margin: 0 auto 0 auto;
+}
+
+#logo {
+   float: left;
+}
+
+ul#menu {
+   text-align: right;
+  list-style-type: none; 
+  text-transform: uppercase;
+}
+
+ul#menu li {
+   display: inline;
+   margin: 0 1ex 0 1ex;
+}
+
+ul#menu a{
+   color: #AAA;
+   text-decoration: none;
+   padding: 0.3ex 1ex 0.3ex 1ex;
+}
+
+ul#menu a:hover {
+    background-image: url('../images/fondo_boton.png');
+}
+

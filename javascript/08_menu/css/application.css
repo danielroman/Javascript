@@ -1,0 +1,29 @@
+
+body {
+  font-family: arial;
+}
+
+#contenedor {
+	width: 16ex;
+	border: 5px double white;
+	background-color: black;
+	opacity: 0.8;
+	padding: 1ex;
+    color: white;
+}
+
+#contenedor * {
+	padding: 1ex;
+}
+
+#contenedor h1 {
+	background-color: blue;
+	font-size: 14pt;
+}
+
+.Elemento {
+	margin: 5px;
+	border-style: solid none none none;
+	border-width: 1px;
+	background-color: grey;
+}

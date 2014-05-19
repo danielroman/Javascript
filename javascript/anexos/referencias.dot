@@ -1,0 +1,11 @@
+digraph referencias {
+    node[shape=record];
+
+    yo [label="yo |name: Txema"];
+
+    a [label=" 1 | 2 | <f1> yo "];
+    b [label=" 5 | <f1> yo | 7 "];
+
+    a:f1 -> yo;
+    b:f1 -> yo;
+}
